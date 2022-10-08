@@ -1,6 +1,10 @@
 const repeatString = function(str, num) {
- let result = str * num;
+    if(num>=0){
+    return str.repeat(num)
+    }else if(num<0){
+        return "ERROR"
+    }
 };
-    return result
+
 // Do not edit below this line
 module.exports = repeatString;
