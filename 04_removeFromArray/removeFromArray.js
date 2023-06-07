@@ -1,7 +1,7 @@
 const removeFromArray = function(arr, ...args) {
    let x = arr;
    let y = args;
-   let z = x.filter(a => !y.includes(a));
+   let z = x.filter(args => !y.includes(args));
    return z
 
     
